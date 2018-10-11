@@ -1,0 +1,989 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		005D5F5987B31ECCF1BAAD00812F99D4 /* VIResourceLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 71C1D2CF5E99C451711AA94C4CA284CA /* VIResourceLoader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		158266634EE5EA8B3326B292534FBFAA /* WJMediaCacheFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B81F1B340FF004B812F04B26AA75B39 /* WJMediaCacheFactory.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		15D8C817A4D2CD02D987DC36252B9115 /* VICacheAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 810AAA2EF09BF18FC70FA7D702D5307D /* VICacheAction.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		198E2E447DAD21FB1212F34A578D2965 /* SimpleAudioMedia.h in Headers */ = {isa = PBXBuildFile; fileRef = F677DA5918C44961EAAB95823D869AC9 /* SimpleAudioMedia.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		198F7F6446876A4F86944AB37709E6DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 022519DB1E5C5A6B92CDB79FE8C92C3A /* UIKit.framework */; };
+		1BDFBEC8F05956A2209C768EF07A7BE7 /* WJPlayerContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 28DF94CADF124D1E16CC3DE4C9FF0002 /* WJPlayerContext.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2521819CCBB80DAFD8D2F477DB50FCC6 /* IWJLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B398B073422FF514A65576660B48994 /* IWJLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		25B5D5065B2009884E719F510E6CC3E3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D209FC954AB99D190E1915763C91A36 /* AVFoundation.framework */; };
+		2CC841B874646B15AF353ECC7D63EEE7 /* WJPlayerContext.m in Sources */ = {isa = PBXBuildFile; fileRef = D0997613FF03B62E723574230E000B83 /* WJPlayerContext.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		315BF42871D45647C1893D40E764FAD8 /* IWJPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E481176626F03140DB03CBF60896CAB /* IWJPlayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		386AEA8E117F34909FA2E55CBC7C0D6A /* VIResourceLoaderManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F4A2B4A31F7DE6C5BE1D5C1C12A0717 /* VIResourceLoaderManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		435EA254D6C5CA7E432C59906439FD71 /* SimpleAudioMedia.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D98A6A96446CFE146E7B460208253F7 /* SimpleAudioMedia.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		49ED7C5DA38CC0724340739E7C0F0E41 /* VIContentInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 890E6E08C985A12A1E1B0DBD06E66E73 /* VIContentInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4CCED5776BDAC6386415F27F26AA7676 /* VICacheAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 910FD8668984FA6F370B547BED0FDADB /* VICacheAction.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4CFA5499A64F36E499BD88553A47D9E7 /* VICacheSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF973E06856A7312A374A31DEA85270 /* VICacheSessionManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4FD63EDE70BB115E9E6ADD45750D25A4 /* SimpleVideoMedia.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C1EEB0D93D4D68D0336DD48B0446F0A /* SimpleVideoMedia.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5157B5EDF736104FC14A04FB63084586 /* SimpleVideoMedia.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D35B4D09F833EA1B58B9A81237F9EA3 /* SimpleVideoMedia.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		593069FE1219DF4C8A6AC7ACB4CF422C /* VIMediaCacheWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C2D6E5D87A132782D5B45ECF1F99F7 /* VIMediaCacheWorker.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5A1F8E0FED8B8057090E5606753502DF /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8429B045DAE30AEFF2721B92B7CCF5 /* MobileCoreServices.framework */; };
+		5AD022472728CECB403E2E31E0C61379 /* IWJMediaCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 58F601361E1C2ECA103055D9E1161FBC /* IWJMediaCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		61BB0F6FF1A8223C997FBC5A936E49C3 /* SimpleMediaCache.h in Headers */ = {isa = PBXBuildFile; fileRef = F8082313DFD4798D786D8EDC4FE21107 /* SimpleMediaCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		63C55277E4821DBA9FB42684FA502618 /* VIResourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C63B067D54E7746EAC912D74F8E72B3 /* VIResourceLoader.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6402840767F288B15F8B3073DD44C932 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D209FC954AB99D190E1915763C91A36 /* AVFoundation.framework */; };
+		671946DD5F3F326DA9D9F70943B21B49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FB4822249A796E5BFEAC9BA81351684 /* Foundation.framework */; };
+		6953EFA112C2256BAE3046382EF070A8 /* VICacheManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C861D390AB914EF707C808E11A4095B /* VICacheManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		73FDFC26221DB6433871ABB3A60D2FE1 /* VIMediaCacheWorker.h in Headers */ = {isa = PBXBuildFile; fileRef = FFBC79B3508C496473A19295A2FFDD65 /* VIMediaCacheWorker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7A50596E9BEA8133F86497712BA607CB /* WJMediaCacheFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B86D61ABDD1BBC82C2B6316F1D4AAC /* WJMediaCacheFactory.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7B8DCE48CB3D13AB02B3ECBD33F6BDF0 /* WJLoggingAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B52C4A79F488C2F9BF0B0F619BFD9F3 /* WJLoggingAPI-dummy.m */; };
+		7E5A9F791258BB7F728C9E17E007EEBD /* IWJPlayerPosterView.h in Headers */ = {isa = PBXBuildFile; fileRef = CBA04494D47E6E30C0B969E49F5C3A73 /* IWJPlayerPosterView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7FA11672EBB40ADC7F8B2265D6780776 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 022519DB1E5C5A6B92CDB79FE8C92C3A /* UIKit.framework */; };
+		8559B430E10B863983DB35D33060BBDE /* VIContentInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FB1DE7761CBB962EE667E5C4041CD9 /* VIContentInfo.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		86FB1C9623439F99DA337B1EB19FF202 /* WJPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F8A0ED1725ECEC653474A19A6ABA07 /* WJPlayerView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		88DA3EB1BC49E0C3E7F441B640F20B6D /* VIResourceLoaderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 440961670BCB85A3AF595463E0C26DFC /* VIResourceLoaderManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8B52B319C29AA577FCB92436E741F8EC /* WJLoggerBinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD95E104675365C982679D92041AAF /* WJLoggerBinder.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8DB6B73E629B020D97FF03B0B3591C9E /* WJPlayerKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F7F81E8628152432ACD7B2EFF8FAA92 /* WJPlayerKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9A8D8B50F1675547E7A3507F9F534A35 /* WJPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6DB3B9E0A35671AF957CEEB46BF524 /* WJPlayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9D20FC87EEF64761464A4B0C15973915 /* WJPlayerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A38D9E0BB2A136F30D66AA057C383A2 /* WJPlayerView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9F8C077FEA5C2DA2942A1689AC2EFEB0 /* VICacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC7210EB7DD88AD7B1A7F0091703270 /* VICacheManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A7FADE5E9FB740CD6C6FA3DACD9A0C47 /* VIResourceLoadingRequestWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 873B46CC225BB0DD25B905BCAAAAB6CB /* VIResourceLoadingRequestWorker.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		AB6E8F0750B2B7FCF955F678E9B421B4 /* WJLoggerBinder.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E824A1EF456E0D9917B777DC23D6E32 /* WJLoggerBinder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AEC722433D5A219A0AF6E3087C176F2B /* IWJMediaCacheBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = BF34EA7F2DE47F08061793A822E6147C /* IWJMediaCacheBuilder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B23D545A4B1451162EF1B868F341AB96 /* VIResourceLoadingRequestWorker.h in Headers */ = {isa = PBXBuildFile; fileRef = 9650B5542B5D978A3F897C38F76F1C98 /* VIResourceLoadingRequestWorker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B2CD8AF051EC2290092983B222B02D5E /* VIMediaDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1BF83F1AA7FBDB85D5EAC9AFB5C5D1 /* VIMediaDownloader.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B4F151C403B6166D6C5830790470EE5D /* IWJPlayerControlView.h in Headers */ = {isa = PBXBuildFile; fileRef = 70802354DDC18B559F66A33EB71FE2D6 /* IWJPlayerControlView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B9F64569DDC89D4734B2540298998775 /* IWJMedia.h in Headers */ = {isa = PBXBuildFile; fileRef = 7039267539195C249DD72E3F4DD0D4E0 /* IWJMedia.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C5D301038E097966332773EA2719B104 /* WJPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2608B8683F5D11D6BB440CA1D7A16127 /* WJPlayer.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CE48600E3E443179F5BB8B2A4844B91D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FB4822249A796E5BFEAC9BA81351684 /* Foundation.framework */; };
+		D4FE656A2365FA00625FAB360D6AD616 /* SimpleMediaCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E5967A1335FE866FBE05097CF3C114 /* SimpleMediaCache.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D6D7FEEB459597806AE47AF401C224A0 /* WJPlayerKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D44F8ED6CB287A0573D3DE8C5221CEA /* WJPlayerKit-dummy.m */; };
+		DC7ED579F8B720BABBA50B060FA3D7FB /* VIMediaCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E06647876EDC23C5AD06E45CBC5AC0F6 /* VIMediaCache-dummy.m */; };
+		DCB9370C8C48FE65D7A3AD54CA91F5D4 /* IWJLoggerFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = D4051F0692E798037EC6C8A13FB92839 /* IWJLoggerFactory.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E2D19C66F7AE0809F2676F361F375DF0 /* VIMediaDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A5528101CF70A0D27CBDFC7B2D7A90 /* VIMediaDownloader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EA5D7764466DFEDCADDE54BFA2E2E5E4 /* WJLoggingAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B961C9DB6988BD4B33202A2A0C2FDF5 /* WJLoggingAPI.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F494D542363AE688BF549FA0309B6155 /* VICacheSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 17D1C57D841DA7BE3BB0417EC1F80C23 /* VICacheSessionManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F77FD68E01620175678CF867AF5A970F /* VICacheConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = E87DCCE2442520A06CB14C28A3DA5F26 /* VICacheConfiguration.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F942725A98D0570698DF667AF04E775E /* VICacheConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = D84CEA6496AFAE2A5F832F6BC708EF67 /* VICacheConfiguration.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FC56E4BF640D11EA9C7F58D9DD1A1A5D /* VIMediaCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 64821F09AB35E483048BC2AC3A6A0581 /* VIMediaCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FD2F9DF30E8D5B74B9B742401A1E1402 /* Pods-WJPlayerCacheVI-example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E3B4FAE9020779157735F2143AC415 /* Pods-WJPlayerCacheVI-example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D7D0DB71360A0F37E43830AC2C549B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB43A43996631C21E206B31BE42B669B;
+			remoteInfo = VIMediaCache;
+		};
+		5EAD262CA528868138D9F55AF9508D96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0150B8E863CD3809496D2BD11578A4C7;
+			remoteInfo = WJLoggingAPI;
+		};
+		8A3723DFAFEF967B37315A8A238DDF46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DD8A9683FC85AB8ED765DA9E8258297;
+			remoteInfo = WJPlayerKit;
+		};
+		8E093CC0D467920D79D9F19D8A78F923 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0150B8E863CD3809496D2BD11578A4C7;
+			remoteInfo = WJLoggingAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0029C7EDA54C373B1D20D8E967BCA6F5 /* libVIMediaCache.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libVIMediaCache.a; path = libVIMediaCache.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		00EF2208BB722FFBE41064308FC84149 /* Pods-WJPlayerCacheVI-example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WJPlayerCacheVI-example-acknowledgements.plist"; sourceTree = "<group>"; };
+		022519DB1E5C5A6B92CDB79FE8C92C3A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		05C2D6E5D87A132782D5B45ECF1F99F7 /* VIMediaCacheWorker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VIMediaCacheWorker.m; path = VIMediaCache/Cache/VIMediaCacheWorker.m; sourceTree = "<group>"; };
+		06FF42D2EC412609681CC4219243C675 /* Pods-WJPlayerCacheVI-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJPlayerCacheVI-example.release.xcconfig"; sourceTree = "<group>"; };
+		0E481176626F03140DB03CBF60896CAB /* IWJPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IWJPlayer.h; path = Classes/IWJPlayer.h; sourceTree = "<group>"; };
+		16AF3F91516EE4FD949F03B178FFAA07 /* Pods-WJPlayerCacheVI-example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WJPlayerCacheVI-example-resources.sh"; sourceTree = "<group>"; };
+		17D1C57D841DA7BE3BB0417EC1F80C23 /* VICacheSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VICacheSessionManager.h; path = VIMediaCache/Cache/VICacheSessionManager.h; sourceTree = "<group>"; };
+		1AA7AD2732C49E7B9D3903F791FFB4DF /* WJPlayerKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WJPlayerKit-prefix.pch"; sourceTree = "<group>"; };
+		1B961C9DB6988BD4B33202A2A0C2FDF5 /* WJLoggingAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WJLoggingAPI.h; path = Classes/WJLoggingAPI.h; sourceTree = "<group>"; };
+		1D8429B045DAE30AEFF2721B92B7CCF5 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		2608B8683F5D11D6BB440CA1D7A16127 /* WJPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WJPlayer.m; path = Classes/WJPlayer.m; sourceTree = "<group>"; };
+		28DF94CADF124D1E16CC3DE4C9FF0002 /* WJPlayerContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WJPlayerContext.h; path = Classes/WJPlayerContext.h; sourceTree = "<group>"; };
+		2B398B073422FF514A65576660B48994 /* IWJLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IWJLogger.h; path = Classes/IWJLogger.h; sourceTree = "<group>"; };
+		2B52C4A79F488C2F9BF0B0F619BFD9F3 /* WJLoggingAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WJLoggingAPI-dummy.m"; sourceTree = "<group>"; };
+		2D98A6A96446CFE146E7B460208253F7 /* SimpleAudioMedia.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SimpleAudioMedia.m; path = Classes/SimpleAudioMedia.m; sourceTree = "<group>"; };
+		2DC0055DCFB513655F4424FAF3E5322A /* Pods-WJPlayerCacheVI-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJPlayerCacheVI-example.debug.xcconfig"; sourceTree = "<group>"; };
+		3B81F1B340FF004B812F04B26AA75B39 /* WJMediaCacheFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WJMediaCacheFactory.h; path = Classes/WJMediaCacheFactory.h; sourceTree = "<group>"; };
+		3D209FC954AB99D190E1915763C91A36 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		3E824A1EF456E0D9917B777DC23D6E32 /* WJLoggerBinder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WJLoggerBinder.h; path = Classes/WJLoggerBinder.h; sourceTree = "<group>"; };
+		3FB4822249A796E5BFEAC9BA81351684 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		440961670BCB85A3AF595463E0C26DFC /* VIResourceLoaderManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VIResourceLoaderManager.m; path = VIMediaCache/ResourceLoader/VIResourceLoaderManager.m; sourceTree = "<group>"; };
+		47E5967A1335FE866FBE05097CF3C114 /* SimpleMediaCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SimpleMediaCache.m; path = Classes/SimpleMediaCache.m; sourceTree = "<group>"; };
+		4A38D9E0BB2A136F30D66AA057C383A2 /* WJPlayerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WJPlayerView.h; path = Classes/WJPlayerView.h; sourceTree = "<group>"; };
+		4C63B067D54E7746EAC912D74F8E72B3 /* VIResourceLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VIResourceLoader.m; path = VIMediaCache/ResourceLoader/VIResourceLoader.m; sourceTree = "<group>"; };
+		4F7F81E8628152432ACD7B2EFF8FAA92 /* WJPlayerKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WJPlayerKit.h; path = Classes/WJPlayerKit.h; sourceTree = "<group>"; };
+		55F8A0ED1725ECEC653474A19A6ABA07 /* WJPlayerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WJPlayerView.m; path = Classes/WJPlayerView.m; sourceTree = "<group>"; };
+		58F601361E1C2ECA103055D9E1161FBC /* IWJMediaCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IWJMediaCache.h; path = Classes/IWJMediaCache.h; sourceTree = "<group>"; };
+		6372C730690DC3C06F3B993A6B0AF52E /* WJLoggingAPI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WJLoggingAPI-prefix.pch"; sourceTree = "<group>"; };
+		64821F09AB35E483048BC2AC3A6A0581 /* VIMediaCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VIMediaCache.h; path = VIMediaCache/VIMediaCache.h; sourceTree = "<group>"; };
+		6D35B4D09F833EA1B58B9A81237F9EA3 /* SimpleVideoMedia.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SimpleVideoMedia.m; path = Classes/SimpleVideoMedia.m; sourceTree = "<group>"; };
+		7039267539195C249DD72E3F4DD0D4E0 /* IWJMedia.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IWJMedia.h; path = Classes/IWJMedia.h; sourceTree = "<group>"; };
+		70802354DDC18B559F66A33EB71FE2D6 /* IWJPlayerControlView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IWJPlayerControlView.h; path = Classes/IWJPlayerControlView.h; sourceTree = "<group>"; };
+		71C1D2CF5E99C451711AA94C4CA284CA /* VIResourceLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VIResourceLoader.h; path = VIMediaCache/ResourceLoader/VIResourceLoader.h; sourceTree = "<group>"; };
+		75FB1DE7761CBB962EE667E5C4041CD9 /* VIContentInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VIContentInfo.m; path = VIMediaCache/ResourceLoader/VIContentInfo.m; sourceTree = "<group>"; };
+		7C1EEB0D93D4D68D0336DD48B0446F0A /* SimpleVideoMedia.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SimpleVideoMedia.h; path = Classes/SimpleVideoMedia.h; sourceTree = "<group>"; };
+		7C861D390AB914EF707C808E11A4095B /* VICacheManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VICacheManager.h; path = VIMediaCache/Cache/VICacheManager.h; sourceTree = "<group>"; };
+		7D44F8ED6CB287A0573D3DE8C5221CEA /* WJPlayerKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WJPlayerKit-dummy.m"; sourceTree = "<group>"; };
+		7F4A2B4A31F7DE6C5BE1D5C1C12A0717 /* VIResourceLoaderManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VIResourceLoaderManager.h; path = VIMediaCache/ResourceLoader/VIResourceLoaderManager.h; sourceTree = "<group>"; };
+		810AAA2EF09BF18FC70FA7D702D5307D /* VICacheAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VICacheAction.h; path = VIMediaCache/Cache/VICacheAction.h; sourceTree = "<group>"; };
+		873B46CC225BB0DD25B905BCAAAAB6CB /* VIResourceLoadingRequestWorker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VIResourceLoadingRequestWorker.m; path = VIMediaCache/ResourceLoader/VIResourceLoadingRequestWorker.m; sourceTree = "<group>"; };
+		890E6E08C985A12A1E1B0DBD06E66E73 /* VIContentInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VIContentInfo.h; path = VIMediaCache/ResourceLoader/VIContentInfo.h; sourceTree = "<group>"; };
+		8CAD95E104675365C982679D92041AAF /* WJLoggerBinder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WJLoggerBinder.m; path = Classes/WJLoggerBinder.m; sourceTree = "<group>"; };
+		8CF973E06856A7312A374A31DEA85270 /* VICacheSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VICacheSessionManager.m; path = VIMediaCache/Cache/VICacheSessionManager.m; sourceTree = "<group>"; };
+		910FD8668984FA6F370B547BED0FDADB /* VICacheAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VICacheAction.m; path = VIMediaCache/Cache/VICacheAction.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		947DC8D93CF1C08921EDEB9123633679 /* Pods-WJPlayerCacheVI-example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WJPlayerCacheVI-example-frameworks.sh"; sourceTree = "<group>"; };
+		95428FBDEC08BB36C6C9219C25537CC4 /* VIMediaCache.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VIMediaCache.xcconfig; sourceTree = "<group>"; };
+		9650B5542B5D978A3F897C38F76F1C98 /* VIResourceLoadingRequestWorker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VIResourceLoadingRequestWorker.h; path = VIMediaCache/ResourceLoader/VIResourceLoadingRequestWorker.h; sourceTree = "<group>"; };
+		9C1BF83F1AA7FBDB85D5EAC9AFB5C5D1 /* VIMediaDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VIMediaDownloader.m; path = VIMediaCache/ResourceLoader/VIMediaDownloader.m; sourceTree = "<group>"; };
+		9C6A1B4D13FD0596FE84520232047138 /* VIMediaCache-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VIMediaCache-prefix.pch"; sourceTree = "<group>"; };
+		A5D0F3FEE8E27BCCA4B369648946FE53 /* libPods-WJPlayerCacheVI-example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WJPlayerCacheVI-example.a"; path = "libPods-WJPlayerCacheVI-example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAE75BB22EB5F1C340D0386A795C1AA6 /* libWJLoggingAPI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWJLoggingAPI.a; path = libWJLoggingAPI.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0B86D61ABDD1BBC82C2B6316F1D4AAC /* WJMediaCacheFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WJMediaCacheFactory.m; path = Classes/WJMediaCacheFactory.m; sourceTree = "<group>"; };
+		B5A5528101CF70A0D27CBDFC7B2D7A90 /* VIMediaDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VIMediaDownloader.h; path = VIMediaCache/ResourceLoader/VIMediaDownloader.h; sourceTree = "<group>"; };
+		B5E3B4FAE9020779157735F2143AC415 /* Pods-WJPlayerCacheVI-example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WJPlayerCacheVI-example-dummy.m"; sourceTree = "<group>"; };
+		B961FEDB301BFBA2C99029F78BF7EE7D /* WJLoggingAPI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WJLoggingAPI.xcconfig; sourceTree = "<group>"; };
+		BF34EA7F2DE47F08061793A822E6147C /* IWJMediaCacheBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IWJMediaCacheBuilder.h; path = Classes/IWJMediaCacheBuilder.h; sourceTree = "<group>"; };
+		BFBA0A8E12AB8EA07A4332C7C100E6F8 /* WJPlayerKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WJPlayerKit.xcconfig; sourceTree = "<group>"; };
+		C49DF912EAF4A842426A4A870EDE30C8 /* Pods-WJPlayerCacheVI-example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WJPlayerCacheVI-example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C577CB9A4F84A1FD944E6D10472A12D0 /* libWJPlayerKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWJPlayerKit.a; path = libWJPlayerKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBA04494D47E6E30C0B969E49F5C3A73 /* IWJPlayerPosterView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IWJPlayerPosterView.h; path = Classes/IWJPlayerPosterView.h; sourceTree = "<group>"; };
+		D0997613FF03B62E723574230E000B83 /* WJPlayerContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WJPlayerContext.m; path = Classes/WJPlayerContext.m; sourceTree = "<group>"; };
+		D4051F0692E798037EC6C8A13FB92839 /* IWJLoggerFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IWJLoggerFactory.h; path = Classes/IWJLoggerFactory.h; sourceTree = "<group>"; };
+		D84CEA6496AFAE2A5F832F6BC708EF67 /* VICacheConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VICacheConfiguration.h; path = VIMediaCache/Cache/VICacheConfiguration.h; sourceTree = "<group>"; };
+		E06647876EDC23C5AD06E45CBC5AC0F6 /* VIMediaCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VIMediaCache-dummy.m"; sourceTree = "<group>"; };
+		E87DCCE2442520A06CB14C28A3DA5F26 /* VICacheConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VICacheConfiguration.m; path = VIMediaCache/Cache/VICacheConfiguration.m; sourceTree = "<group>"; };
+		EC6DB3B9E0A35671AF957CEEB46BF524 /* WJPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WJPlayer.h; path = Classes/WJPlayer.h; sourceTree = "<group>"; };
+		EFC7210EB7DD88AD7B1A7F0091703270 /* VICacheManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VICacheManager.m; path = VIMediaCache/Cache/VICacheManager.m; sourceTree = "<group>"; };
+		F677DA5918C44961EAAB95823D869AC9 /* SimpleAudioMedia.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SimpleAudioMedia.h; path = Classes/SimpleAudioMedia.h; sourceTree = "<group>"; };
+		F8082313DFD4798D786D8EDC4FE21107 /* SimpleMediaCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SimpleMediaCache.h; path = Classes/SimpleMediaCache.h; sourceTree = "<group>"; };
+		FFBC79B3508C496473A19295A2FFDD65 /* VIMediaCacheWorker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VIMediaCacheWorker.h; path = VIMediaCache/Cache/VIMediaCacheWorker.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0503FC0294D733CCC7EFF0AB9FC2EC81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25B5D5065B2009884E719F510E6CC3E3 /* AVFoundation.framework in Frameworks */,
+				CE48600E3E443179F5BB8B2A4844B91D /* Foundation.framework in Frameworks */,
+				7FA11672EBB40ADC7F8B2265D6780776 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67D01536CD7189ADB343A354DB9178CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				671946DD5F3F326DA9D9F70943B21B49 /* Foundation.framework in Frameworks */,
+				198F7F6446876A4F86944AB37709E6DA /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73AC7C3B52FB4AACB489F11F31EC7D56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6402840767F288B15F8B3073DD44C932 /* AVFoundation.framework in Frameworks */,
+				5A1F8E0FED8B8057090E5606753502DF /* MobileCoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B26E6283908E19726CBE5C1AD407EDA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06C46A277D82D72BC87F82106359C9AF /* VIMediaCache */ = {
+			isa = PBXGroup;
+			children = (
+				810AAA2EF09BF18FC70FA7D702D5307D /* VICacheAction.h */,
+				910FD8668984FA6F370B547BED0FDADB /* VICacheAction.m */,
+				D84CEA6496AFAE2A5F832F6BC708EF67 /* VICacheConfiguration.h */,
+				E87DCCE2442520A06CB14C28A3DA5F26 /* VICacheConfiguration.m */,
+				7C861D390AB914EF707C808E11A4095B /* VICacheManager.h */,
+				EFC7210EB7DD88AD7B1A7F0091703270 /* VICacheManager.m */,
+				17D1C57D841DA7BE3BB0417EC1F80C23 /* VICacheSessionManager.h */,
+				8CF973E06856A7312A374A31DEA85270 /* VICacheSessionManager.m */,
+				890E6E08C985A12A1E1B0DBD06E66E73 /* VIContentInfo.h */,
+				75FB1DE7761CBB962EE667E5C4041CD9 /* VIContentInfo.m */,
+				64821F09AB35E483048BC2AC3A6A0581 /* VIMediaCache.h */,
+				FFBC79B3508C496473A19295A2FFDD65 /* VIMediaCacheWorker.h */,
+				05C2D6E5D87A132782D5B45ECF1F99F7 /* VIMediaCacheWorker.m */,
+				B5A5528101CF70A0D27CBDFC7B2D7A90 /* VIMediaDownloader.h */,
+				9C1BF83F1AA7FBDB85D5EAC9AFB5C5D1 /* VIMediaDownloader.m */,
+				71C1D2CF5E99C451711AA94C4CA284CA /* VIResourceLoader.h */,
+				4C63B067D54E7746EAC912D74F8E72B3 /* VIResourceLoader.m */,
+				7F4A2B4A31F7DE6C5BE1D5C1C12A0717 /* VIResourceLoaderManager.h */,
+				440961670BCB85A3AF595463E0C26DFC /* VIResourceLoaderManager.m */,
+				9650B5542B5D978A3F897C38F76F1C98 /* VIResourceLoadingRequestWorker.h */,
+				873B46CC225BB0DD25B905BCAAAAB6CB /* VIResourceLoadingRequestWorker.m */,
+				AA7E938CF08A5380055EBC3373C11DB2 /* Support Files */,
+			);
+			name = VIMediaCache;
+			path = VIMediaCache;
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55C0607A252310F5CCEEF3F0DC0F7CB7 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3AE3BAD411AED5D166B0B073B8EFCD5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06C46A277D82D72BC87F82106359C9AF /* VIMediaCache */,
+				61DD305CCE61D8EA3EBE306857977F49 /* WJLoggingAPI */,
+				DBB46CC7DF3C46304DB4169EA7DECE4B /* WJPlayerKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		55C0607A252310F5CCEEF3F0DC0F7CB7 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3D209FC954AB99D190E1915763C91A36 /* AVFoundation.framework */,
+				3FB4822249A796E5BFEAC9BA81351684 /* Foundation.framework */,
+				1D8429B045DAE30AEFF2721B92B7CCF5 /* MobileCoreServices.framework */,
+				022519DB1E5C5A6B92CDB79FE8C92C3A /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		61DD305CCE61D8EA3EBE306857977F49 /* WJLoggingAPI */ = {
+			isa = PBXGroup;
+			children = (
+				2B398B073422FF514A65576660B48994 /* IWJLogger.h */,
+				D4051F0692E798037EC6C8A13FB92839 /* IWJLoggerFactory.h */,
+				3E824A1EF456E0D9917B777DC23D6E32 /* WJLoggerBinder.h */,
+				8CAD95E104675365C982679D92041AAF /* WJLoggerBinder.m */,
+				1B961C9DB6988BD4B33202A2A0C2FDF5 /* WJLoggingAPI.h */,
+				8F4998D9B22290C92D28FA99D2F70923 /* Support Files */,
+			);
+			name = WJLoggingAPI;
+			path = WJLoggingAPI;
+			sourceTree = "<group>";
+		};
+		6D52328282B3102BE762050D0A7D42A5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B16A88F73062291FA7F351CC6F6E5F22 /* Pods-WJPlayerCacheVI-example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				3AE3BAD411AED5D166B0B073B8EFCD5F /* Pods */,
+				FED73E9DCA56719BB932F8D1162B740F /* Products */,
+				6D52328282B3102BE762050D0A7D42A5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8F4998D9B22290C92D28FA99D2F70923 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B961FEDB301BFBA2C99029F78BF7EE7D /* WJLoggingAPI.xcconfig */,
+				2B52C4A79F488C2F9BF0B0F619BFD9F3 /* WJLoggingAPI-dummy.m */,
+				6372C730690DC3C06F3B993A6B0AF52E /* WJLoggingAPI-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WJLoggingAPI";
+			sourceTree = "<group>";
+		};
+		AA7E938CF08A5380055EBC3373C11DB2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				95428FBDEC08BB36C6C9219C25537CC4 /* VIMediaCache.xcconfig */,
+				E06647876EDC23C5AD06E45CBC5AC0F6 /* VIMediaCache-dummy.m */,
+				9C6A1B4D13FD0596FE84520232047138 /* VIMediaCache-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/VIMediaCache";
+			sourceTree = "<group>";
+		};
+		B16A88F73062291FA7F351CC6F6E5F22 /* Pods-WJPlayerCacheVI-example */ = {
+			isa = PBXGroup;
+			children = (
+				C49DF912EAF4A842426A4A870EDE30C8 /* Pods-WJPlayerCacheVI-example-acknowledgements.markdown */,
+				00EF2208BB722FFBE41064308FC84149 /* Pods-WJPlayerCacheVI-example-acknowledgements.plist */,
+				B5E3B4FAE9020779157735F2143AC415 /* Pods-WJPlayerCacheVI-example-dummy.m */,
+				947DC8D93CF1C08921EDEB9123633679 /* Pods-WJPlayerCacheVI-example-frameworks.sh */,
+				16AF3F91516EE4FD949F03B178FFAA07 /* Pods-WJPlayerCacheVI-example-resources.sh */,
+				2DC0055DCFB513655F4424FAF3E5322A /* Pods-WJPlayerCacheVI-example.debug.xcconfig */,
+				06FF42D2EC412609681CC4219243C675 /* Pods-WJPlayerCacheVI-example.release.xcconfig */,
+			);
+			name = "Pods-WJPlayerCacheVI-example";
+			path = "Target Support Files/Pods-WJPlayerCacheVI-example";
+			sourceTree = "<group>";
+		};
+		CC6B0874AFA99584A680AB64C6FA557F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFBA0A8E12AB8EA07A4332C7C100E6F8 /* WJPlayerKit.xcconfig */,
+				7D44F8ED6CB287A0573D3DE8C5221CEA /* WJPlayerKit-dummy.m */,
+				1AA7AD2732C49E7B9D3903F791FFB4DF /* WJPlayerKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WJPlayerKit";
+			sourceTree = "<group>";
+		};
+		DBB46CC7DF3C46304DB4169EA7DECE4B /* WJPlayerKit */ = {
+			isa = PBXGroup;
+			children = (
+				7039267539195C249DD72E3F4DD0D4E0 /* IWJMedia.h */,
+				58F601361E1C2ECA103055D9E1161FBC /* IWJMediaCache.h */,
+				BF34EA7F2DE47F08061793A822E6147C /* IWJMediaCacheBuilder.h */,
+				0E481176626F03140DB03CBF60896CAB /* IWJPlayer.h */,
+				70802354DDC18B559F66A33EB71FE2D6 /* IWJPlayerControlView.h */,
+				CBA04494D47E6E30C0B969E49F5C3A73 /* IWJPlayerPosterView.h */,
+				F677DA5918C44961EAAB95823D869AC9 /* SimpleAudioMedia.h */,
+				2D98A6A96446CFE146E7B460208253F7 /* SimpleAudioMedia.m */,
+				F8082313DFD4798D786D8EDC4FE21107 /* SimpleMediaCache.h */,
+				47E5967A1335FE866FBE05097CF3C114 /* SimpleMediaCache.m */,
+				7C1EEB0D93D4D68D0336DD48B0446F0A /* SimpleVideoMedia.h */,
+				6D35B4D09F833EA1B58B9A81237F9EA3 /* SimpleVideoMedia.m */,
+				3B81F1B340FF004B812F04B26AA75B39 /* WJMediaCacheFactory.h */,
+				B0B86D61ABDD1BBC82C2B6316F1D4AAC /* WJMediaCacheFactory.m */,
+				EC6DB3B9E0A35671AF957CEEB46BF524 /* WJPlayer.h */,
+				2608B8683F5D11D6BB440CA1D7A16127 /* WJPlayer.m */,
+				28DF94CADF124D1E16CC3DE4C9FF0002 /* WJPlayerContext.h */,
+				D0997613FF03B62E723574230E000B83 /* WJPlayerContext.m */,
+				4F7F81E8628152432ACD7B2EFF8FAA92 /* WJPlayerKit.h */,
+				4A38D9E0BB2A136F30D66AA057C383A2 /* WJPlayerView.h */,
+				55F8A0ED1725ECEC653474A19A6ABA07 /* WJPlayerView.m */,
+				CC6B0874AFA99584A680AB64C6FA557F /* Support Files */,
+			);
+			name = WJPlayerKit;
+			path = WJPlayerKit;
+			sourceTree = "<group>";
+		};
+		FED73E9DCA56719BB932F8D1162B740F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5D0F3FEE8E27BCCA4B369648946FE53 /* libPods-WJPlayerCacheVI-example.a */,
+				0029C7EDA54C373B1D20D8E967BCA6F5 /* libVIMediaCache.a */,
+				AAE75BB22EB5F1C340D0386A795C1AA6 /* libWJLoggingAPI.a */,
+				C577CB9A4F84A1FD944E6D10472A12D0 /* libWJPlayerKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2679494A9F0B9A6D9517853D047072EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9F64569DDC89D4734B2540298998775 /* IWJMedia.h in Headers */,
+				5AD022472728CECB403E2E31E0C61379 /* IWJMediaCache.h in Headers */,
+				AEC722433D5A219A0AF6E3087C176F2B /* IWJMediaCacheBuilder.h in Headers */,
+				315BF42871D45647C1893D40E764FAD8 /* IWJPlayer.h in Headers */,
+				B4F151C403B6166D6C5830790470EE5D /* IWJPlayerControlView.h in Headers */,
+				7E5A9F791258BB7F728C9E17E007EEBD /* IWJPlayerPosterView.h in Headers */,
+				198E2E447DAD21FB1212F34A578D2965 /* SimpleAudioMedia.h in Headers */,
+				61BB0F6FF1A8223C997FBC5A936E49C3 /* SimpleMediaCache.h in Headers */,
+				4FD63EDE70BB115E9E6ADD45750D25A4 /* SimpleVideoMedia.h in Headers */,
+				158266634EE5EA8B3326B292534FBFAA /* WJMediaCacheFactory.h in Headers */,
+				9A8D8B50F1675547E7A3507F9F534A35 /* WJPlayer.h in Headers */,
+				1BDFBEC8F05956A2209C768EF07A7BE7 /* WJPlayerContext.h in Headers */,
+				8DB6B73E629B020D97FF03B0B3591C9E /* WJPlayerKit.h in Headers */,
+				9D20FC87EEF64761464A4B0C15973915 /* WJPlayerView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C69C8CFA91AACBE962A19A4ED6BB43 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2521819CCBB80DAFD8D2F477DB50FCC6 /* IWJLogger.h in Headers */,
+				DCB9370C8C48FE65D7A3AD54CA91F5D4 /* IWJLoggerFactory.h in Headers */,
+				AB6E8F0750B2B7FCF955F678E9B421B4 /* WJLoggerBinder.h in Headers */,
+				EA5D7764466DFEDCADDE54BFA2E2E5E4 /* WJLoggingAPI.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D757058728A2D4B22D433AAB159763 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15D8C817A4D2CD02D987DC36252B9115 /* VICacheAction.h in Headers */,
+				F942725A98D0570698DF667AF04E775E /* VICacheConfiguration.h in Headers */,
+				6953EFA112C2256BAE3046382EF070A8 /* VICacheManager.h in Headers */,
+				F494D542363AE688BF549FA0309B6155 /* VICacheSessionManager.h in Headers */,
+				49ED7C5DA38CC0724340739E7C0F0E41 /* VIContentInfo.h in Headers */,
+				FC56E4BF640D11EA9C7F58D9DD1A1A5D /* VIMediaCache.h in Headers */,
+				73FDFC26221DB6433871ABB3A60D2FE1 /* VIMediaCacheWorker.h in Headers */,
+				E2D19C66F7AE0809F2676F361F375DF0 /* VIMediaDownloader.h in Headers */,
+				005D5F5987B31ECCF1BAAD00812F99D4 /* VIResourceLoader.h in Headers */,
+				386AEA8E117F34909FA2E55CBC7C0D6A /* VIResourceLoaderManager.h in Headers */,
+				B23D545A4B1451162EF1B868F341AB96 /* VIResourceLoadingRequestWorker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0150B8E863CD3809496D2BD11578A4C7 /* WJLoggingAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D653E269F1C08DE6D1FC87ABB4AA3922 /* Build configuration list for PBXNativeTarget "WJLoggingAPI" */;
+			buildPhases = (
+				1E90783597791390035ACF90B5B35ADB /* Sources */,
+				67D01536CD7189ADB343A354DB9178CF /* Frameworks */,
+				A0C69C8CFA91AACBE962A19A4ED6BB43 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WJLoggingAPI;
+			productName = WJLoggingAPI;
+			productReference = AAE75BB22EB5F1C340D0386A795C1AA6 /* libWJLoggingAPI.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9DD8A9683FC85AB8ED765DA9E8258297 /* WJPlayerKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6618E0E6DFF04DB2C09B5A979805B38 /* Build configuration list for PBXNativeTarget "WJPlayerKit" */;
+			buildPhases = (
+				D44BD3586AACDE9F72E24CBFFA01037C /* Sources */,
+				0503FC0294D733CCC7EFF0AB9FC2EC81 /* Frameworks */,
+				2679494A9F0B9A6D9517853D047072EE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABD4D415FF407FC9695B42E7F442271B /* PBXTargetDependency */,
+			);
+			name = WJPlayerKit;
+			productName = WJPlayerKit;
+			productReference = C577CB9A4F84A1FD944E6D10472A12D0 /* libWJPlayerKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CB43A43996631C21E206B31BE42B669B /* VIMediaCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 257D108C310861F42FA8F5B5A16E3C8E /* Build configuration list for PBXNativeTarget "VIMediaCache" */;
+			buildPhases = (
+				6E6621FD516A3EC50E32ED2BB28C603C /* Sources */,
+				73AC7C3B52FB4AACB489F11F31EC7D56 /* Frameworks */,
+				A2D757058728A2D4B22D433AAB159763 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VIMediaCache;
+			productName = VIMediaCache;
+			productReference = 0029C7EDA54C373B1D20D8E967BCA6F5 /* libVIMediaCache.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F7CEE764A893BEDD48996AFF4F2C8D86 /* Pods-WJPlayerCacheVI-example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B38F276EFB4C7E8915EB760F713CB76B /* Build configuration list for PBXNativeTarget "Pods-WJPlayerCacheVI-example" */;
+			buildPhases = (
+				D82E047CE28B516A7EDAFE10D8DF9699 /* Sources */,
+				B26E6283908E19726CBE5C1AD407EDA1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCF2431ADDE511AC8F27A11787C04E23 /* PBXTargetDependency */,
+				D520E3C2E03D97110D77EBE9BA8F2937 /* PBXTargetDependency */,
+				787AEDD1B4EEEE12D81DCDC7AD84DC45 /* PBXTargetDependency */,
+			);
+			name = "Pods-WJPlayerCacheVI-example";
+			productName = "Pods-WJPlayerCacheVI-example";
+			productReference = A5D0F3FEE8E27BCCA4B369648946FE53 /* libPods-WJPlayerCacheVI-example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FED73E9DCA56719BB932F8D1162B740F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7CEE764A893BEDD48996AFF4F2C8D86 /* Pods-WJPlayerCacheVI-example */,
+				CB43A43996631C21E206B31BE42B669B /* VIMediaCache */,
+				0150B8E863CD3809496D2BD11578A4C7 /* WJLoggingAPI */,
+				9DD8A9683FC85AB8ED765DA9E8258297 /* WJPlayerKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E90783597791390035ACF90B5B35ADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B52B319C29AA577FCB92436E741F8EC /* WJLoggerBinder.m in Sources */,
+				7B8DCE48CB3D13AB02B3ECBD33F6BDF0 /* WJLoggingAPI-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E6621FD516A3EC50E32ED2BB28C603C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCED5776BDAC6386415F27F26AA7676 /* VICacheAction.m in Sources */,
+				F77FD68E01620175678CF867AF5A970F /* VICacheConfiguration.m in Sources */,
+				9F8C077FEA5C2DA2942A1689AC2EFEB0 /* VICacheManager.m in Sources */,
+				4CFA5499A64F36E499BD88553A47D9E7 /* VICacheSessionManager.m in Sources */,
+				8559B430E10B863983DB35D33060BBDE /* VIContentInfo.m in Sources */,
+				DC7ED579F8B720BABBA50B060FA3D7FB /* VIMediaCache-dummy.m in Sources */,
+				593069FE1219DF4C8A6AC7ACB4CF422C /* VIMediaCacheWorker.m in Sources */,
+				B2CD8AF051EC2290092983B222B02D5E /* VIMediaDownloader.m in Sources */,
+				63C55277E4821DBA9FB42684FA502618 /* VIResourceLoader.m in Sources */,
+				88DA3EB1BC49E0C3E7F441B640F20B6D /* VIResourceLoaderManager.m in Sources */,
+				A7FADE5E9FB740CD6C6FA3DACD9A0C47 /* VIResourceLoadingRequestWorker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D44BD3586AACDE9F72E24CBFFA01037C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435EA254D6C5CA7E432C59906439FD71 /* SimpleAudioMedia.m in Sources */,
+				D4FE656A2365FA00625FAB360D6AD616 /* SimpleMediaCache.m in Sources */,
+				5157B5EDF736104FC14A04FB63084586 /* SimpleVideoMedia.m in Sources */,
+				7A50596E9BEA8133F86497712BA607CB /* WJMediaCacheFactory.m in Sources */,
+				C5D301038E097966332773EA2719B104 /* WJPlayer.m in Sources */,
+				2CC841B874646B15AF353ECC7D63EEE7 /* WJPlayerContext.m in Sources */,
+				D6D7FEEB459597806AE47AF401C224A0 /* WJPlayerKit-dummy.m in Sources */,
+				86FB1C9623439F99DA337B1EB19FF202 /* WJPlayerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D82E047CE28B516A7EDAFE10D8DF9699 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD2F9DF30E8D5B74B9B742401A1E1402 /* Pods-WJPlayerCacheVI-example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		787AEDD1B4EEEE12D81DCDC7AD84DC45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WJPlayerKit;
+			target = 9DD8A9683FC85AB8ED765DA9E8258297 /* WJPlayerKit */;
+			targetProxy = 8A3723DFAFEF967B37315A8A238DDF46 /* PBXContainerItemProxy */;
+		};
+		ABD4D415FF407FC9695B42E7F442271B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WJLoggingAPI;
+			target = 0150B8E863CD3809496D2BD11578A4C7 /* WJLoggingAPI */;
+			targetProxy = 5EAD262CA528868138D9F55AF9508D96 /* PBXContainerItemProxy */;
+		};
+		CCF2431ADDE511AC8F27A11787C04E23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VIMediaCache;
+			target = CB43A43996631C21E206B31BE42B669B /* VIMediaCache */;
+			targetProxy = 0D7D0DB71360A0F37E43830AC2C549B2 /* PBXContainerItemProxy */;
+		};
+		D520E3C2E03D97110D77EBE9BA8F2937 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WJLoggingAPI;
+			target = 0150B8E863CD3809496D2BD11578A4C7 /* WJLoggingAPI */;
+			targetProxy = 8E093CC0D467920D79D9F19D8A78F923 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1C78BE14165579EA7CDC16AA93414B4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B961FEDB301BFBA2C99029F78BF7EE7D /* WJLoggingAPI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WJLoggingAPI/WJLoggingAPI-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WJLoggingAPI;
+				PRODUCT_NAME = WJLoggingAPI;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4DDB8D264F42F972B9C0CF8E22282CC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B961FEDB301BFBA2C99029F78BF7EE7D /* WJLoggingAPI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WJLoggingAPI/WJLoggingAPI-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WJLoggingAPI;
+				PRODUCT_NAME = WJLoggingAPI;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50F82487BF2ECFCE5869268EE598FC8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFBA0A8E12AB8EA07A4332C7C100E6F8 /* WJPlayerKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WJPlayerKit/WJPlayerKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WJPlayerKit;
+				PRODUCT_NAME = WJPlayerKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72AFCB485723426233BD79583CFF9EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95428FBDEC08BB36C6C9219C25537CC4 /* VIMediaCache.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/VIMediaCache/VIMediaCache-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = VIMediaCache;
+				PRODUCT_NAME = VIMediaCache;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9098A57048513D85C770C93C86C700F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFBA0A8E12AB8EA07A4332C7C100E6F8 /* WJPlayerKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WJPlayerKit/WJPlayerKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WJPlayerKit;
+				PRODUCT_NAME = WJPlayerKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8946DEC8DF29AFEE4118BA72DC43D50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DC0055DCFB513655F4424FAF3E5322A /* Pods-WJPlayerCacheVI-example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB5680E7D1AC9D509EDDE6D01440AD16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06FF42D2EC412609681CC4219243C675 /* Pods-WJPlayerCacheVI-example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FF1C5C63AEF8A0661B2AC7150190B738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95428FBDEC08BB36C6C9219C25537CC4 /* VIMediaCache.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/VIMediaCache/VIMediaCache-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = VIMediaCache;
+				PRODUCT_NAME = VIMediaCache;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		257D108C310861F42FA8F5B5A16E3C8E /* Build configuration list for PBXNativeTarget "VIMediaCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF1C5C63AEF8A0661B2AC7150190B738 /* Debug */,
+				72AFCB485723426233BD79583CFF9EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B38F276EFB4C7E8915EB760F713CB76B /* Build configuration list for PBXNativeTarget "Pods-WJPlayerCacheVI-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8946DEC8DF29AFEE4118BA72DC43D50 /* Debug */,
+				DB5680E7D1AC9D509EDDE6D01440AD16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D653E269F1C08DE6D1FC87ABB4AA3922 /* Build configuration list for PBXNativeTarget "WJLoggingAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C78BE14165579EA7CDC16AA93414B4E /* Debug */,
+				4DDB8D264F42F972B9C0CF8E22282CC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6618E0E6DFF04DB2C09B5A979805B38 /* Build configuration list for PBXNativeTarget "WJPlayerKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9098A57048513D85C770C93C86C700F6 /* Debug */,
+				50F82487BF2ECFCE5869268EE598FC8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,17 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/yunhaiwu/ios-wj-framework-cocoapods-specs.git'
+
+platform :ios, '8.0'
+
+#use_frameworks!
+
+inhibit_all_warnings!
+
+target :'WJPlayerCacheVI-example' do
+
+pod 'VIMediaCache'
+pod 'WJLoggingAPI'
+pod 'WJPlayerKit'
+
+
+end

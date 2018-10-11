@@ -1,0 +1,26 @@
+PODS:
+  - VIMediaCache (0.3)
+  - WJLoggingAPI (2.0)
+  - WJPlayerKit (1.0):
+    - WJLoggingAPI
+
+DEPENDENCIES:
+  - VIMediaCache
+  - WJLoggingAPI
+  - WJPlayerKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - VIMediaCache
+  https://github.com/yunhaiwu/ios-wj-framework-cocoapods-specs.git:
+    - WJLoggingAPI
+    - WJPlayerKit
+
+SPEC CHECKSUMS:
+  VIMediaCache: 02c03af2adf2526eddc8ee3b06e41f26e9546f38
+  WJLoggingAPI: 183581a351d51f93ec9900a3cc5f2df15b907de3
+  WJPlayerKit: 660b9ee1d790dfe7e2a0d5965dcf882905b08b4a
+
+PODFILE CHECKSUM: 88cc8f268c28b8b2a625abaf1549282fc1842982
+
+COCOAPODS: 1.5.3

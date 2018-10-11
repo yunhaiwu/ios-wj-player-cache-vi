@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6014BED1216F549A00B2E768 /* PNMediaCacheBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6014BECD216F549A00B2E768 /* PNMediaCacheBuilder.m */; };
+		6014BED2216F549A00B2E768 /* VIMediaCacheAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6014BED0216F549A00B2E768 /* VIMediaCacheAdapter.m */; };
+		60C8954B216F536300E5AA1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C8954A216F536300E5AA1A /* AppDelegate.m */; };
+		60C8954E216F536300E5AA1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C8954D216F536300E5AA1A /* ViewController.m */; };
+		60C89551216F536300E5AA1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60C8954F216F536300E5AA1A /* Main.storyboard */; };
+		60C89553216F536400E5AA1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60C89552216F536400E5AA1A /* Assets.xcassets */; };
+		60C89556216F536400E5AA1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60C89554216F536400E5AA1A /* LaunchScreen.storyboard */; };
+		60C89559216F536400E5AA1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C89558216F536400E5AA1A /* main.m */; };
+		60C89563216F536400E5AA1A /* WJPlayerCacheVI_exampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C89562216F536400E5AA1A /* WJPlayerCacheVI_exampleTests.m */; };
+		B51DEE3696407DD547AE93E7 /* libPods-WJPlayerCacheVI-example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A226EE85FCC190039C38C61F /* libPods-WJPlayerCacheVI-example.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60C8955F216F536400E5AA1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60C8953E216F536300E5AA1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60C89545216F536300E5AA1A;
+			remoteInfo = "WJPlayerCacheVI-example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28129884E47E909F5C3DFAA2 /* Pods-WJPlayerCacheVI-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJPlayerCacheVI-example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WJPlayerCacheVI-example/Pods-WJPlayerCacheVI-example.debug.xcconfig"; sourceTree = "<group>"; };
+		6014BECB216F543200B2E768 /* WJPlayerCacheVI.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = WJPlayerCacheVI.podspec; path = ../../WJPlayerCacheVI.podspec; sourceTree = "<group>"; };
+		6014BECC216F543200B2E768 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
+		6014BECD216F549A00B2E768 /* PNMediaCacheBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNMediaCacheBuilder.m; sourceTree = "<group>"; };
+		6014BECE216F549A00B2E768 /* VIMediaCacheAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIMediaCacheAdapter.h; sourceTree = "<group>"; };
+		6014BECF216F549A00B2E768 /* PNMediaCacheBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNMediaCacheBuilder.h; sourceTree = "<group>"; };
+		6014BED0216F549A00B2E768 /* VIMediaCacheAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIMediaCacheAdapter.m; sourceTree = "<group>"; };
+		60C89546216F536300E5AA1A /* WJPlayerCacheVI-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WJPlayerCacheVI-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60C89549216F536300E5AA1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		60C8954A216F536300E5AA1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		60C8954C216F536300E5AA1A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		60C8954D216F536300E5AA1A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		60C89550216F536300E5AA1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60C89552216F536400E5AA1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60C89555216F536400E5AA1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60C89557216F536400E5AA1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60C89558216F536400E5AA1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60C8955E216F536400E5AA1A /* WJPlayerCacheVI-exampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WJPlayerCacheVI-exampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60C89562216F536400E5AA1A /* WJPlayerCacheVI_exampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJPlayerCacheVI_exampleTests.m; sourceTree = "<group>"; };
+		60C89564216F536400E5AA1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A226EE85FCC190039C38C61F /* libPods-WJPlayerCacheVI-example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WJPlayerCacheVI-example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDCE92385E088B079162DA44 /* Pods-WJPlayerCacheVI-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJPlayerCacheVI-example.release.xcconfig"; path = "Pods/Target Support Files/Pods-WJPlayerCacheVI-example/Pods-WJPlayerCacheVI-example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60C89543216F536300E5AA1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51DEE3696407DD547AE93E7 /* libPods-WJPlayerCacheVI-example.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60C8955B216F536400E5AA1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6014BECA216F542400B2E768 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6014BECF216F549A00B2E768 /* PNMediaCacheBuilder.h */,
+				6014BECD216F549A00B2E768 /* PNMediaCacheBuilder.m */,
+				6014BECE216F549A00B2E768 /* VIMediaCacheAdapter.h */,
+				6014BED0216F549A00B2E768 /* VIMediaCacheAdapter.m */,
+			);
+			name = Classes;
+			path = ../../Classes;
+			sourceTree = "<group>";
+		};
+		60C8953D216F536300E5AA1A = {
+			isa = PBXGroup;
+			children = (
+				6014BECC216F543200B2E768 /* README.md */,
+				6014BECB216F543200B2E768 /* WJPlayerCacheVI.podspec */,
+				6014BECA216F542400B2E768 /* Classes */,
+				60C89548216F536300E5AA1A /* WJPlayerCacheVI-example */,
+				60C89561216F536400E5AA1A /* WJPlayerCacheVI-exampleTests */,
+				60C89547216F536300E5AA1A /* Products */,
+				A11C32C02717B08DBB131A68 /* Pods */,
+				926A6DCE2BD56F5CDB07E271 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		60C89547216F536300E5AA1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60C89546216F536300E5AA1A /* WJPlayerCacheVI-example.app */,
+				60C8955E216F536400E5AA1A /* WJPlayerCacheVI-exampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60C89548216F536300E5AA1A /* WJPlayerCacheVI-example */ = {
+			isa = PBXGroup;
+			children = (
+				60C89549216F536300E5AA1A /* AppDelegate.h */,
+				60C8954A216F536300E5AA1A /* AppDelegate.m */,
+				60C8954C216F536300E5AA1A /* ViewController.h */,
+				60C8954D216F536300E5AA1A /* ViewController.m */,
+				60C8954F216F536300E5AA1A /* Main.storyboard */,
+				60C89552216F536400E5AA1A /* Assets.xcassets */,
+				60C89554216F536400E5AA1A /* LaunchScreen.storyboard */,
+				60C89557216F536400E5AA1A /* Info.plist */,
+				60C89558216F536400E5AA1A /* main.m */,
+			);
+			path = "WJPlayerCacheVI-example";
+			sourceTree = "<group>";
+		};
+		60C89561216F536400E5AA1A /* WJPlayerCacheVI-exampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				60C89562216F536400E5AA1A /* WJPlayerCacheVI_exampleTests.m */,
+				60C89564216F536400E5AA1A /* Info.plist */,
+			);
+			path = "WJPlayerCacheVI-exampleTests";
+			sourceTree = "<group>";
+		};
+		926A6DCE2BD56F5CDB07E271 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A226EE85FCC190039C38C61F /* libPods-WJPlayerCacheVI-example.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A11C32C02717B08DBB131A68 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28129884E47E909F5C3DFAA2 /* Pods-WJPlayerCacheVI-example.debug.xcconfig */,
+				DDCE92385E088B079162DA44 /* Pods-WJPlayerCacheVI-example.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60C89545216F536300E5AA1A /* WJPlayerCacheVI-example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60C89567216F536400E5AA1A /* Build configuration list for PBXNativeTarget "WJPlayerCacheVI-example" */;
+			buildPhases = (
+				9DDE0729E28D3837FFB71928 /* [CP] Check Pods Manifest.lock */,
+				60C89542216F536300E5AA1A /* Sources */,
+				60C89543216F536300E5AA1A /* Frameworks */,
+				60C89544216F536300E5AA1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WJPlayerCacheVI-example";
+			productName = "WJPlayerCacheVI-example";
+			productReference = 60C89546216F536300E5AA1A /* WJPlayerCacheVI-example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60C8955D216F536400E5AA1A /* WJPlayerCacheVI-exampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60C8956A216F536400E5AA1A /* Build configuration list for PBXNativeTarget "WJPlayerCacheVI-exampleTests" */;
+			buildPhases = (
+				60C8955A216F536400E5AA1A /* Sources */,
+				60C8955B216F536400E5AA1A /* Frameworks */,
+				60C8955C216F536400E5AA1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60C89560216F536400E5AA1A /* PBXTargetDependency */,
+			);
+			name = "WJPlayerCacheVI-exampleTests";
+			productName = "WJPlayerCacheVI-exampleTests";
+			productReference = 60C8955E216F536400E5AA1A /* WJPlayerCacheVI-exampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60C8953E216F536300E5AA1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = PN;
+				TargetAttributes = {
+					60C89545216F536300E5AA1A = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					60C8955D216F536400E5AA1A = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 60C89545216F536300E5AA1A;
+					};
+				};
+			};
+			buildConfigurationList = 60C89541216F536300E5AA1A /* Build configuration list for PBXProject "WJPlayerCacheVI-example" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60C8953D216F536300E5AA1A;
+			productRefGroup = 60C89547216F536300E5AA1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60C89545216F536300E5AA1A /* WJPlayerCacheVI-example */,
+				60C8955D216F536400E5AA1A /* WJPlayerCacheVI-exampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60C89544216F536300E5AA1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C89556216F536400E5AA1A /* LaunchScreen.storyboard in Resources */,
+				60C89553216F536400E5AA1A /* Assets.xcassets in Resources */,
+				60C89551216F536300E5AA1A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60C8955C216F536400E5AA1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9DDE0729E28D3837FFB71928 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WJPlayerCacheVI-example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60C89542216F536300E5AA1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6014BED2216F549A00B2E768 /* VIMediaCacheAdapter.m in Sources */,
+				60C8954E216F536300E5AA1A /* ViewController.m in Sources */,
+				6014BED1216F549A00B2E768 /* PNMediaCacheBuilder.m in Sources */,
+				60C89559216F536400E5AA1A /* main.m in Sources */,
+				60C8954B216F536300E5AA1A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60C8955A216F536400E5AA1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C89563216F536400E5AA1A /* WJPlayerCacheVI_exampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60C89560216F536400E5AA1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60C89545216F536300E5AA1A /* WJPlayerCacheVI-example */;
+			targetProxy = 60C8955F216F536400E5AA1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60C8954F216F536300E5AA1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60C89550216F536300E5AA1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60C89554216F536400E5AA1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60C89555216F536400E5AA1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60C89565216F536400E5AA1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		60C89566216F536400E5AA1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60C89568216F536400E5AA1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28129884E47E909F5C3DFAA2 /* Pods-WJPlayerCacheVI-example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5D39YL5D57;
+				INFOPLIST_FILE = "WJPlayerCacheVI-example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "PN.WJPlayerCacheVI-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60C89569216F536400E5AA1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDCE92385E088B079162DA44 /* Pods-WJPlayerCacheVI-example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5D39YL5D57;
+				INFOPLIST_FILE = "WJPlayerCacheVI-example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "PN.WJPlayerCacheVI-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		60C8956B216F536400E5AA1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5D39YL5D57;
+				INFOPLIST_FILE = "WJPlayerCacheVI-exampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "PN.WJPlayerCacheVI-exampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WJPlayerCacheVI-example.app/WJPlayerCacheVI-example";
+			};
+			name = Debug;
+		};
+		60C8956C216F536400E5AA1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5D39YL5D57;
+				INFOPLIST_FILE = "WJPlayerCacheVI-exampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "PN.WJPlayerCacheVI-exampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WJPlayerCacheVI-example.app/WJPlayerCacheVI-example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60C89541216F536300E5AA1A /* Build configuration list for PBXProject "WJPlayerCacheVI-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60C89565216F536400E5AA1A /* Debug */,
+				60C89566216F536400E5AA1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60C89567216F536400E5AA1A /* Build configuration list for PBXNativeTarget "WJPlayerCacheVI-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60C89568216F536400E5AA1A /* Debug */,
+				60C89569216F536400E5AA1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60C8956A216F536400E5AA1A /* Build configuration list for PBXNativeTarget "WJPlayerCacheVI-exampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60C8956B216F536400E5AA1A /* Debug */,
+				60C8956C216F536400E5AA1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60C8953E216F536300E5AA1A /* Project object */;
+}
