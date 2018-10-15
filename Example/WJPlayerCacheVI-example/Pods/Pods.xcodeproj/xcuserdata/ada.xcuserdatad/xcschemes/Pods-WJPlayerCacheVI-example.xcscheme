@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F7CEE764A893BEDD48996AFF4F2C8D86"
+               BlueprintIdentifier = "8659DB1A94AE9AB8A7E1E4DAF90D476C"
                BlueprintName = "Pods-WJPlayerCacheVI-example"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "libPods-WJPlayerCacheVI-example.a">

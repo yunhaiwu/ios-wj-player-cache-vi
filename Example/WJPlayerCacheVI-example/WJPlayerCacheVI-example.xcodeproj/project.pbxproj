@@ -15,19 +15,8 @@
 		60C89553216F536400E5AA1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60C89552216F536400E5AA1A /* Assets.xcassets */; };
 		60C89556216F536400E5AA1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60C89554216F536400E5AA1A /* LaunchScreen.storyboard */; };
 		60C89559216F536400E5AA1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C89558216F536400E5AA1A /* main.m */; };
-		60C89563216F536400E5AA1A /* WJPlayerCacheVI_exampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C89562216F536400E5AA1A /* WJPlayerCacheVI_exampleTests.m */; };
 		B51DEE3696407DD547AE93E7 /* libPods-WJPlayerCacheVI-example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A226EE85FCC190039C38C61F /* libPods-WJPlayerCacheVI-example.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		60C8955F216F536400E5AA1A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 60C8953E216F536300E5AA1A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 60C89545216F536300E5AA1A;
-			remoteInfo = "WJPlayerCacheVI-example";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		28129884E47E909F5C3DFAA2 /* Pods-WJPlayerCacheVI-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJPlayerCacheVI-example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WJPlayerCacheVI-example/Pods-WJPlayerCacheVI-example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -47,7 +36,6 @@
 		60C89555216F536400E5AA1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60C89557216F536400E5AA1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60C89558216F536400E5AA1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		60C8955E216F536400E5AA1A /* WJPlayerCacheVI-exampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WJPlayerCacheVI-exampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60C89562216F536400E5AA1A /* WJPlayerCacheVI_exampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJPlayerCacheVI_exampleTests.m; sourceTree = "<group>"; };
 		60C89564216F536400E5AA1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A226EE85FCC190039C38C61F /* libPods-WJPlayerCacheVI-example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WJPlayerCacheVI-example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,13 +48,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B51DEE3696407DD547AE93E7 /* libPods-WJPlayerCacheVI-example.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		60C8955B216F536400E5AA1A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +84,6 @@
 			isa = PBXGroup;
 			children = (
 				60C89546216F536300E5AA1A /* WJPlayerCacheVI-example.app */,
-				60C8955E216F536400E5AA1A /* WJPlayerCacheVI-exampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -171,24 +151,6 @@
 			productReference = 60C89546216F536300E5AA1A /* WJPlayerCacheVI-example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		60C8955D216F536400E5AA1A /* WJPlayerCacheVI-exampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 60C8956A216F536400E5AA1A /* Build configuration list for PBXNativeTarget "WJPlayerCacheVI-exampleTests" */;
-			buildPhases = (
-				60C8955A216F536400E5AA1A /* Sources */,
-				60C8955B216F536400E5AA1A /* Frameworks */,
-				60C8955C216F536400E5AA1A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				60C89560216F536400E5AA1A /* PBXTargetDependency */,
-			);
-			name = "WJPlayerCacheVI-exampleTests";
-			productName = "WJPlayerCacheVI-exampleTests";
-			productReference = 60C8955E216F536400E5AA1A /* WJPlayerCacheVI-exampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -200,10 +162,6 @@
 				TargetAttributes = {
 					60C89545216F536300E5AA1A = {
 						CreatedOnToolsVersion = 10.0;
-					};
-					60C8955D216F536400E5AA1A = {
-						CreatedOnToolsVersion = 10.0;
-						TestTargetID = 60C89545216F536300E5AA1A;
 					};
 				};
 			};
@@ -221,7 +179,6 @@
 			projectRoot = "";
 			targets = (
 				60C89545216F536300E5AA1A /* WJPlayerCacheVI-example */,
-				60C8955D216F536400E5AA1A /* WJPlayerCacheVI-exampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -234,13 +191,6 @@
 				60C89556216F536400E5AA1A /* LaunchScreen.storyboard in Resources */,
 				60C89553216F536400E5AA1A /* Assets.xcassets in Resources */,
 				60C89551216F536300E5AA1A /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		60C8955C216F536400E5AA1A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,23 +230,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		60C8955A216F536400E5AA1A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				60C89563216F536400E5AA1A /* WJPlayerCacheVI_exampleTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		60C89560216F536400E5AA1A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 60C89545216F536300E5AA1A /* WJPlayerCacheVI-example */;
-			targetProxy = 60C8955F216F536400E5AA1A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		60C8954F216F536300E5AA1A /* Main.storyboard */ = {
@@ -466,44 +400,6 @@
 			};
 			name = Release;
 		};
-		60C8956B216F536400E5AA1A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5D39YL5D57;
-				INFOPLIST_FILE = "WJPlayerCacheVI-exampleTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "PN.WJPlayerCacheVI-exampleTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WJPlayerCacheVI-example.app/WJPlayerCacheVI-example";
-			};
-			name = Debug;
-		};
-		60C8956C216F536400E5AA1A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5D39YL5D57;
-				INFOPLIST_FILE = "WJPlayerCacheVI-exampleTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "PN.WJPlayerCacheVI-exampleTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WJPlayerCacheVI-example.app/WJPlayerCacheVI-example";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -521,15 +417,6 @@
 			buildConfigurations = (
 				60C89568216F536400E5AA1A /* Debug */,
 				60C89569216F536400E5AA1A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		60C8956A216F536400E5AA1A /* Build configuration list for PBXNativeTarget "WJPlayerCacheVI-exampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				60C8956B216F536400E5AA1A /* Debug */,
-				60C8956C216F536400E5AA1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

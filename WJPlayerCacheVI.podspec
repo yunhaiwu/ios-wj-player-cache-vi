@@ -28,7 +28,8 @@ s.requires_arc = true
 s.frameworks = "Foundation", "UIKit", "AVFoundation"
 
 s.dependency "WJLoggingAPI"
-s.dependency "WJPlayerKit"
+s.dependency "WJPlayerKit", '>=1.0'
 s.dependency "VIMediaCache", '0.4'
+s.dependency "WJConfig", '>=2.0'
 
 end

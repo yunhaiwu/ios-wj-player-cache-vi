@@ -12,6 +12,7 @@ target :'WJPlayerCacheVI-example' do
 pod 'VIMediaCache'
 pod 'WJLoggingAPI'
 pod 'WJPlayerKit'
+pod 'WJConfig', '>=2.0'
 
 
 end

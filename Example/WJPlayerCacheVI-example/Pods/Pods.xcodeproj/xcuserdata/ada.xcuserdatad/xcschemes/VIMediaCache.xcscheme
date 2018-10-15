@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CB43A43996631C21E206B31BE42B669B"
+               BlueprintIdentifier = "25BFE74AF9807DA6FD40F6C4E6C636F6"
                BlueprintName = "VIMediaCache"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "libVIMediaCache.a">
