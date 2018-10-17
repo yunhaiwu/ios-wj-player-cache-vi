@@ -34,7 +34,9 @@
 @implementation VIMediaCacheAdapter
 
 -(void)handleApplicationDidEnterBackgroundNotification:(NSNotification*)notification {
-    [[NSUserDefaults standardUserDefaults] setObject:_expiredTimes forKey:WJ_PLAYER_MEDIA_EXPIRED_CACHE_KEY];
+    if ([_expiredTimes count] > 0) {
+        [[NSUserDefaults standardUserDefaults] setObject:_expiredTimes forKey:WJ_PLAYER_MEDIA_EXPIRED_CACHE_KEY];
+    }
 }
 
 -(instancetype)init {
